@@ -1,0 +1,26 @@
+/*******
+**GRID**
+********/
+
+// Pág. Contacto
+
+.contenedor-contacto {
+    display: grid;
+    grid-template-areas:
+    'navbar'
+    'container'
+    'footer';
+}
+
+.navbar {
+    grid-area: navbar;
+}
+
+.container {
+    grid-area: container;
+}
+
+#contenedor-footer {
+    grid-area: footer;
+}
+

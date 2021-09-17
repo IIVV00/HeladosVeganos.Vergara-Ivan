@@ -1,0 +1,11 @@
+/***********
+**CONTACTO**
+************/
+
+/*section 1*/
+
+.contacto {
+    background-image: url(../../imagenes/fondos/background-plano1.png);
+    @extend .fondo;
+    margin-top: 5em;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HeladosVeganos.Vergara</title>
+    <!--Styles-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+<div class="contenedor-contacto container-fluid">
+
+<!--CABECERA-->
+
+    <header>
+        <div>
+            <nav class="navbar navbar-light bg-light fixed-top">
+                <div class="container-fluid" id="contenedor-head">
+                    <a class="navbar-brand" href="index.html"><img src="../imagenes/../imagenes/logos/sacha_logo_fondotransparente.png" alt="logo" class="logo-header"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="paginas/helados.html">HELADOS</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="paginas/contacto.html">CONTACTO</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">NOVEDADES</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>    
+    </header>
+
+<!--SECCIONES-->
+    <div class="container contacto">
+        <form>
+            <fieldset disabled>
+                <legend><h1 class="título-h1 text-center">CONTACTANOS</h1></legend>
+                    <div class="mb-3 row position-relative">
+                        <label for="disabledTextInput" class="form-label">Nombre y apellido</label>
+                        <input type="text" name="disabledTextInput" class="form-control"><br>
+                    </div>
+
+                    <div class="mb-3 row position-relative">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" name="email" class="form-control"/><br> 
+                    </div>
+
+                    <div class="mb-3 row position-relative">
+                        <textarea rows="10" cols="40" class="form-control">Deje aquí su mensaje...</textarea><br>
+                    </div>
+
+                    <div class="mb-3 row input position-relative">
+                        <input type="reset" class="form-control" value="Limpiar formulario"/>
+                        <input type="submit"class="form-control"  value="Enviar formulario"/>
+                    </div>
+            </fieldset>
+        </form>
+    </div>
+
+<!--PIE DE PÁGINA-->
+
+    <footer>
+        <div class="container-fluid" id="contenedor-footer">    
+            <div><img src="../imagenes/logos/sacha_logo_fondotransparente.png" class="logo-footer" alt="logo"></div>
+            <hr class="hr-footer">
+            <div class="RedesSociales">
+                <h2>SEGUINOS:</h2>
+                <ul>
+                    <a href="https://www.facebook.com/sacha.helados/"><i class="bi bi-facebook" style="font-size:2.5rem; color:black"></i></a>
+                    <a href="https://www.instagram.com/sacha.helados/"><i class="bi bi-instagram" style="font-size:2.5rem; color:black"></i></a>
+                </ul>
+            </div>
+        </div>    
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+/*********
+**MIXINS**
+**********/
+
+// 1- Mixin para tipografía
+
+@mixin typo-inicio ($size, $weight, $aling, $color, $padding, $line-height) {
+    font-size: $size;
+    font-weight: $weight;
+    text-align: $aling;
+    color: $color; 
+    padding: $padding;
+    line-height: $line-height;
+}

@@ -1,0 +1,69 @@
+/*********
+**INICIO**
+**********/
+
+// Extend 
+
+.fondo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+// body 
+
+/*.contenedor {
+    animation-name: contenedor;
+    animation-duration: 1.5s;
+    animation-iteration-count: initial;
+}*/
+
+// Carousel
+
+// Carousel - Fondo 
+
+.carousel__background1 {
+    @extend .fondo;
+    margin-top: 5.2em;
+}
+
+.carousel__background2 {
+    @extend .fondo;
+    margin-top: 5.2em;
+}
+
+// Carousel - tipografía 
+
+.carousel-caption {
+    h1 {
+        @include typo-inicio (2em, bold, right, $color5, 2.2em 100px 0 0, 1.4em);
+    }
+    h2 {
+        @include typo-inicio (2.6em, normal, right, $color2, 1.6em 100px 0 0, 1.4em);
+    } 
+    h3 {
+        @include typo-inicio (1.2em, normal, right, $color2, 0.6em 100px 0 0em, 1.4em);
+    }
+}
+.caption-center {
+    top: 10%;
+    right: 0%;
+}
+
+// Section 1
+
+.section1 {
+        background-image: url(/imagenes/fondos/background2.png);
+        @extend .fondo;
+    h2 {
+        @include typo-inicio (2em, bold, left, $color3, 2.4em 0 0 5em, 0em);
+    }
+    h3 {
+        @include typo-inicio (3em, bold, left, $color0, 40px 0em 0 3.2em, 1.4em);
+    }
+    p {
+        @include typo-inicio (1.2em, lighter, left, $color3, 2em 0 0 8.3em, 1.4em);
+    }
+}
