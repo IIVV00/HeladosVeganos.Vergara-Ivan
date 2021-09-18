@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -454,6 +455,37 @@ hr {
     color: #dba643;
     padding: 2em 0 0 8.3em;
     line-height: 1.4em; }
+
+/************
+**PRODUCTOS**
+*************/
+/*section 1*/
+#helados {
+  background-image: url(../../imagenes/fondos/background-plano1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 5em; }
+
+.título-h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 10px;
+  color: #3d0810; }
+
+.Tabla-helados ul {
+  color: black;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  list-style: none; }
+
+.sabores {
+  font-weight: bold;
+  font-size: 21px; }
 
 /***********
 **CONTACTO**
