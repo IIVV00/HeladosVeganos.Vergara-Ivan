@@ -14,24 +14,49 @@
 <!--CABECERA-->
 
     <header>
-        <div class=logo-menu>
-            <img src="../imagenes/sacha_logo_fondotransparente.png" alt="Logo" class="img"/>
-            <nav class=menu>
-                <ul>
-                    <li>
-                        <button>
-                            <img src="../imagenes/lista.png" width="50">
-                            <ul>
-                                <li><a href="../index.html">INICIO</a></il>
-                                <li><a href="../paginas/Helados.html">HELADOS</a></li>
-                                <li><a href="../paginas/contactos.html">CONTACTO</a></li>
+        <div>
+            <nav class="navbar navbar-light bg-light fixed-top">
+                <div class="container-fluid" id="contenedor-head">
+                    <a class="navbar-brand" href="index.html"><img src="../imagenes/../imagenes/logos/sacha_logo_fondotransparente.png" alt="logo" class="logo-header"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="paginas/productos.html">PRODUCTOS</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="paginas/contacto.html">CONTACTO</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="paginas/quienes-somos.html">¿QUIENES SOMOS?</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">NOVEDADES</a>
+                                </li>
                             </ul>
-                        </button>
-                    </il>
-                </ul>
+                        </div>
+                    </div>
+                </div>
             </nav>
         </div>    
     </header>
+
 
 <!--SECCIONES-->
 

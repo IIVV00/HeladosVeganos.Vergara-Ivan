@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -460,7 +461,7 @@ hr {
 /*********
 **INICIO**
 **********/
-.fondo, .carousel__background1, .carousel__background2, .section1, .contacto {
+.fondo, .carousel__background1, .carousel__background2, .section1__background2, .contacto {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -468,11 +469,15 @@ hr {
   height: 100vh;
 }
 
-/*.contenedor {
-    animation-name: contenedor;
-    animation-duration: 1.5s;
-    animation-iteration-count: initial;
-}*/
+.contenedor {
+  -webkit-animation-name: contenedor;
+          animation-name: contenedor;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: initial;
+          animation-iteration-count: initial;
+}
+
 .carousel__background1 {
   margin-top: 5.2em;
 }
@@ -513,10 +518,6 @@ hr {
   right: 0%;
 }
 
-.section1 {
-  background-image: url(/imagenes/fondos/background2.png);
-}
-
 .section1 h2 {
   font-size: 2em;
   font-weight: bold;
@@ -542,6 +543,45 @@ hr {
   color: #dba643;
   padding: 2em 0 0 8.3em;
   line-height: 1.4em;
+}
+
+/************
+**PRODUCTOS**
+*************/
+/*section 1*/
+#helados {
+  background-image: url(../../imagenes/fondos/background-plano1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 5em;
+}
+
+.título-h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 10px;
+  color: #3d0810;
+}
+
+.Tabla-helados ul {
+  color: black;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+.sabores {
+  font-weight: bold;
+  font-size: 21px;
 }
 
 /***********

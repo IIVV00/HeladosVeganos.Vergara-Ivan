@@ -6,14 +6,20 @@
     padding: 0em 1em;
 }
 
-.container-fluid {
+.footer {
     background-image: linear-gradient(to top, rgba(245, 245, 245, 0.815), white);
 }
 
 hr {
     color: $color2;
 }
-.RedesSociales h2 {
+
+.footer__columnas {
+    display: flex;
+    
+}
+
+.footer__columnas h2 {
     font-size: 1.6em;
     text-align: left;
     padding: 0 0px 0 2px;
@@ -28,16 +34,16 @@ hr {
 
 // Iconos
 
-.RedesSociales ul {
+.footer__Redes ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     padding-left: 0em;
 }
-.RedesSociales ul i {
+.footer__Redes ul i {
     margin-inline: 14px;
 }
-.RedesSociales ul a:hover {
+.footer__Redes ul a:hover {
     background-color: $color4;
     border-radius: 4em;
 }

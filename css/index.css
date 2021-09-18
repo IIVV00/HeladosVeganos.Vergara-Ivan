@@ -354,13 +354,16 @@ body {
 #contenedor-footer {
   padding: 0em 1em; }
 
-.container-fluid {
+.footer {
   background-image: linear-gradient(to top, rgba(245, 245, 245, 0.815), white); }
 
 hr {
   color: #460d16; }
 
-.RedesSociales h2 {
+.footer__columnas {
+  display: flex; }
+
+.footer__columnas h2 {
   font-size: 1.6em;
   text-align: left;
   padding: 0 0px 0 2px;
@@ -370,34 +373,34 @@ hr {
 .logo-footer {
   width: 8em; }
 
-.RedesSociales ul {
+.footer__Redes ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   padding-left: 0em; }
 
-.RedesSociales ul i {
+.footer__Redes ul i {
   margin-inline: 14px; }
 
-.RedesSociales ul a:hover {
+.footer__Redes ul a:hover {
   background-color: #c6a058;
   border-radius: 4em; }
 
 /*********
 **INICIO**
 **********/
-.fondo, .carousel__background1, .carousel__background2, .section1, .contacto {
+.fondo, .carousel__background1, .carousel__background2, .contacto {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 100vh; }
 
-/*.contenedor {
-    animation-name: contenedor;
-    animation-duration: 1.5s;
-    animation-iteration-count: initial;
-}*/
+.contenedor {
+  animation-name: contenedor;
+  animation-duration: 1.5s;
+  animation-iteration-count: initial; }
+
 .carousel__background1 {
   margin-top: 5.2em; }
 
@@ -431,30 +434,6 @@ hr {
 .caption-center {
   top: 10%;
   right: 0%; }
-
-.section1 {
-  background-image: url(/imagenes/fondos/background2.png); }
-  .section1 h2 {
-    font-size: 2em;
-    font-weight: bold;
-    text-align: left;
-    color: #dba643;
-    padding: 2.4em 0 0 5em;
-    line-height: 0em; }
-  .section1 h3 {
-    font-size: 3em;
-    font-weight: bold;
-    text-align: left;
-    color: #ffffff;
-    padding: 40px 0em 0 3.2em;
-    line-height: 1.4em; }
-  .section1 p {
-    font-size: 1.2em;
-    font-weight: lighter;
-    text-align: left;
-    color: #dba643;
-    padding: 2em 0 0 8.3em;
-    line-height: 1.4em; }
 
 /************
 **PRODUCTOS**
@@ -494,6 +473,41 @@ hr {
 .contacto {
   background-image: url(../../imagenes/fondos/background-plano1.png);
   margin-top: 5em; }
+
+/****************
+**QUIENES-SOMOS**
+*****************/
+.section1 {
+  display: flex;
+  align-items: center;
+  position: absolute; }
+
+.section1__background2 {
+  position: relative; }
+
+.section1__typo {
+  position: relative; }
+  .section1__typo h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+    color: #dba643;
+    padding: 2.4em 0 0 5em;
+    line-height: 0em; }
+  .section1__typo h3 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    padding: 40px 0em 0 3.2em;
+    line-height: 1.4em; }
+  .section1__typo p {
+    font-size: 1.2em;
+    font-weight: lighter;
+    text-align: left;
+    color: #dba643;
+    padding: 2em 0 0 8.3em;
+    line-height: 1.4em; }
 
 .container-fluid {
   padding: 0em; }
