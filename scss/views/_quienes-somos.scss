@@ -5,16 +5,16 @@
 // Section 1
 
 .section1 {
+    background-image: url(../../imagenes/fondos/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     display: flex;
     align-items: center;
-    position: absolute;
-}
-.section1__background2 {
-position: relative;
+    position: relative;
 }
 
 .section1__typo {
-    position: relative;
     h2 {
         @include typo-inicio (2em, bold, left, $color3, 2.4em 0 0 5em, 0em);
     }

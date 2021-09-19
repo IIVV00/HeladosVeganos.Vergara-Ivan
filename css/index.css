@@ -352,13 +352,16 @@ body {
 **FOOTER**
 **********/
 #contenedor-footer {
-  padding: 0em 1em; }
-
-.footer {
+  padding: 0em 1em;
+  width: 100%;
+  margin: auto;
   background-image: linear-gradient(to top, rgba(245, 245, 245, 0.815), white); }
 
 hr {
   color: #460d16; }
+
+.logo-footer {
+  width: 8em; }
 
 .footer__columnas {
   display: flex; }
@@ -370,8 +373,8 @@ hr {
   line-height: 1.6em;
   color: #c6a058; }
 
-.logo-footer {
-  width: 8em; }
+.footer__Redes {
+  max-width: 600px; }
 
 .footer__Redes ul {
   display: flex;
@@ -386,6 +389,27 @@ hr {
   background-color: #c6a058;
   border-radius: 4em; }
 
+/*
+// COLUMNA - MENU
+
+.footer__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 0em;
+    max-width: 600px;
+}
+
+.footer__menu ul div a {
+    margin-left: 0;
+}
+
+.footer__menu ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0em;
+}
+*/
 /*********
 **INICIO**
 **********/
@@ -478,36 +502,37 @@ hr {
 **QUIENES-SOMOS**
 *****************/
 .section1 {
+  background-image: url(../../imagenes/fondos/background2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   display: flex;
   align-items: center;
-  position: absolute; }
-
-.section1__background2 {
   position: relative; }
 
-.section1__typo {
-  position: relative; }
-  .section1__typo h2 {
-    font-size: 2em;
-    font-weight: bold;
-    text-align: left;
-    color: #dba643;
-    padding: 2.4em 0 0 5em;
-    line-height: 0em; }
-  .section1__typo h3 {
-    font-size: 3em;
-    font-weight: bold;
-    text-align: left;
-    color: #ffffff;
-    padding: 40px 0em 0 3.2em;
-    line-height: 1.4em; }
-  .section1__typo p {
-    font-size: 1.2em;
-    font-weight: lighter;
-    text-align: left;
-    color: #dba643;
-    padding: 2em 0 0 8.3em;
-    line-height: 1.4em; }
+.section1__typo h2 {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: left;
+  color: #dba643;
+  padding: 2.4em 0 0 5em;
+  line-height: 0em; }
+
+.section1__typo h3 {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+  padding: 40px 0em 0 3.2em;
+  line-height: 1.4em; }
+
+.section1__typo p {
+  font-size: 1.2em;
+  font-weight: lighter;
+  text-align: left;
+  color: #dba643;
+  padding: 2em 0 0 8.3em;
+  line-height: 1.4em; }
 
 .container-fluid {
   padding: 0em; }

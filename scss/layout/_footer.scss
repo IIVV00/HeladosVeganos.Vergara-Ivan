@@ -4,9 +4,8 @@
 
 #contenedor-footer {
     padding: 0em 1em;
-}
-
-.footer {
+    width: 100%;
+    margin: auto;
     background-image: linear-gradient(to top, rgba(245, 245, 245, 0.815), white);
 }
 
@@ -14,9 +13,15 @@ hr {
     color: $color2;
 }
 
+//Logo
+.logo-footer {
+    width: 8em;
+}
+
+// COLUMNAS
+
 .footer__columnas {
     display: flex;
-    
 }
 
 .footer__columnas h2 {
@@ -27,12 +32,12 @@ hr {
     color: $color4;
 }
 
-//Logo
-.logo-footer {
-    width: 8em;
-}
 
-// Iconos
+// COLUMNA - REDES
+
+.footer__Redes {
+    max-width: 600px;
+}
 
 .footer__Redes ul {
     display: flex;
@@ -47,3 +52,25 @@ hr {
     background-color: $color4;
     border-radius: 4em;
 }
+
+/*
+// COLUMNA - MENU
+
+.footer__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 0em;
+    max-width: 600px;
+}
+
+.footer__menu ul div a {
+    margin-left: 0;
+}
+
+.footer__menu ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0em;
+}
+*/
